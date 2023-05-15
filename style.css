@@ -57,7 +57,7 @@ strong {
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
-  margin: 0 0 13px;
+  margin: 0 0 16px;
 }
 
 .profile-background {
@@ -67,8 +67,7 @@ strong {
 .row {
   flex: 1;
   padding-bottom: 20px;
-  margin: 60px 0 0;
-  margin-left: 40px;
+  margin: 60px 0 0 40px;
 }
 
 .background > h4,
@@ -148,7 +147,11 @@ strong {
 .parent-grid-test {
   border-right: 1px solid #686868;
   margin: 0;
-  padding: 60px 0 0;
+  padding: 30px 0 0;
+}
+
+.experiences {
+  margin: 30px 0 0 40px;
 }
 
 @media (min-width: 375px) and (max-width: 500px) {
